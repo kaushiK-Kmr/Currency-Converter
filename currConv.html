@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel = "stylesheet" href = "currConv.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <form>
+            <div class="FROM">
+                <P id = "text">From</P>
+                <div class="select_container">
+                    <img src="https://flagsapi.com/IN/flat/32.png">
+                    <select id="from" class = "from"></select>
+                </div>
+                <input id = "boxF" type="text" value = "1">
+                <p id = "firstBox"></p>
+            </div>
+            <p id="arrow">&#10606</p>
+            <div class="TO">
+                <p id = "text">To</p>
+                <div class="select_container">
+                    <img src="https://flagsapi.com/US/flat/32.png">
+                    <select id="to" class = "from"></select>
+                </div>
+                <input id = "boxT" type="text" value="">
+                <p id = "secBox"></p>
+            </div>
+            <button id = "btn">Get Exchanged Value</button>
+        </form>
+        
+    </div>
+    <script src="codes.js"></script>
+    <script src="currConv.js"></script>
+</body>
+</html>
