@@ -1,7 +1,7 @@
 body{
     align-items: center;
     justify-content: center;
-    min-height: 70vh;
+    min-height: 100vh;
     display: flex;
     background-image: url("https://w0.peakpx.com/wallpaper/814/872/HD-wallpaper-money-different-currencies-world-money-concepts-money-texture-different-money-finance-concepts.jpg");
     background-size: cover;
@@ -14,8 +14,8 @@ body{
     padding: 1.5rem;
     border-radius: 2rem;
     box-shadow: 0 0 1rem rgba(0,0,0,1);
-    min-width: 50vh;
-    min-height: 60vh;
+    min-width: 40vh;
+    min-height: 45vh;
     margin: 6rem 0;
 }
 
